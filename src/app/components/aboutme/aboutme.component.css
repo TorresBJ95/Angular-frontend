@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px){
+
+  .generalfont{
+    font-family: sans-serif;
+    color: var(--bs-gray-100);
+    margin: 15px;
+  }
+  #fullstack{
+    max-width: 50%;
+    height: auto;
+    border-radius: 50px;
+    border-color: #000;
+    margin: 15px 15px;
+  }
+  .text-aboutme{
+    font-family: sans-serif;
+    color: var(--bs-gray-100);
+    text-align: justify;
+  }
+  #icon-edit{
+    color: var(--bs-gray-100);
+    float: right;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .generalfont{
+    font-family: sans-serif;
+    color: var(--bs-gray-100);
+    margin-top: 30px;
+    margin-left: 20px;
+    }
+
+    #fullstack{
+    width: 170px;
+    height: auto;
+    border-radius: 50px;
+    border-color: #000;
+    margin: 20px 20px;
+    }
+
+    .text-aboutme{
+    font-family: sans-serif;
+    color: var(--bs-gray-100);
+    text-align: justify;
+    margin: 30px 30px;
+    }
+
+    #icon-edit{
+    color: var(--bs-gray-100);
+    float: right;
+    margin-left: 20px;
+    }
+
+}
