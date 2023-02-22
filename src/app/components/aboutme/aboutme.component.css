@@ -1,16 +1,24 @@
+@media screen and (max-width: 575px){
+  .about_me{
+    margin-top: 20px;
+    height: 100vh;
+  }
+
+}
 @media screen and (max-width: 767px){
+
 
   .generalfont{
     font-family: sans-serif;
     color: var(--bs-gray-100);
     margin: 15px;
   }
-  #fullstack{
+  .fullstack{
     max-width: 50%;
     height: auto;
     border-radius: 50px;
     border-color: #000;
-    margin: 15px 15px;
+    margin: 15px 60px;
   }
   .text-aboutme{
     font-family: sans-serif;
@@ -25,32 +33,74 @@
 }
 
 @media screen and (min-width: 768px){
+  .btn_size{
+    width: 5vw;
+    height: 5vh;
+    font-size: 2vh;
+    margin: 5px 5px;
+
+  }
+  .btn_medium{
+    width: 10vw;
+    height: 6vh;
+    font-size: 2vh;
+  }
+  .edit_paragraph{
+    border-style: double;
+    border-color: dimgrey;
+    border-radius: 5px;
+    background-color: #000;
+    color: floralwhite;
+
+
+  }
+  .list_of_paragraphs{
+    display: inline;
+    margin: 5px 5px;
+
+  }
   .generalfont{
+
     font-family: sans-serif;
     color: var(--bs-gray-100);
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 25px;
     }
 
-    #fullstack{
+    .fullstack{
     width: 170px;
     height: auto;
     border-radius: 50px;
     border-color: #000;
-    margin: 20px 20px;
+    margin: 20px 90px;
     }
 
     .text-aboutme{
-    font-family: sans-serif;
-    color: var(--bs-gray-100);
-    text-align: justify;
-    margin: 30px 30px;
+      font-size: 19px;
+      font-family: sans-serif;
+      color: var(--bs-gray-100);
+      text-align: justify;
+      margin: 30px 30px;
     }
+
 
     #icon-edit{
     color: var(--bs-gray-100);
     float: right;
     margin-left: 20px;
     }
+
+}
+@media screen and (min-width: 992px){
+  .text-aboutme{
+    margin: 10px;
+
+  }
+  .generalfont{
+    margin-left: 10px;
+  }
+  .fullstack{
+    margin: 10px 190px;
+  }
 
 }

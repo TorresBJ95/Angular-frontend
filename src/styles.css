@@ -4,6 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #031633;
+  background: linear-gradient(to bottom, #B4C5DB, #98A9BE, #728495, #4A5B6A, #263447, #1B2629);
+
 }
 
